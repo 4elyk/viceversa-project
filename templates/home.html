@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-	<h1>Vice Versa</h1>
-	<form>
-		<textarea rows='10' cols='30' name='usertext'></textarea>
-		<br><br>
-	<input type="submit" value="Reverse" name="">
-</body>
-</html>
+<h1>Vice Versaa</h1>
+<form action="{% url 'reverse'%}">
+	<textarea cols="50" rows="10" name="usertext"></textarea>
+	<br><br>
+	<input type="submit" value="Reverse">
+</form>
